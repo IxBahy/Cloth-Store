@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import { Routes, Route, Link } from "react-router-dom";
+import Header from './components/Header';
+
+import Categories from './components/Categories';
+import Contact from './components/Contact'
+import ProductList from './components/ProductList';
+
+// can use fetch insted
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+
+            <Navbar />
+
+            <Routes>
+                <Route path='/' element={<Header />} />
+                <Route path='/categories/' element={<Categories />} />
+                <Route path='/contacts/' element={<Contact />} />
+                <Route path='/ProductList/:id' element={<ProductList />} />
+            </Routes>
+
+            <Footer />
+        </>
+    )
 }
 
-export default App;
+export default App

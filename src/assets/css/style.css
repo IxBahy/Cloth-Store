@@ -1,0 +1,131 @@
+body {
+
+    letter-spacing: 0.5px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+nav {
+    width: 100%;
+    background-color: #022244;
+    opacity: 0.9;
+    z-index: 999999;
+    box-shadow: 0 0 10px 0 black;
+
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+#products,
+#location,
+#categories,
+header {
+    margin-top: 105px;
+    min-height: 100vh;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+}
+
+.heading {
+    padding-top: 25vh;
+    width: 18vw;
+}
+
+
+
+
+
+.carousel {
+    background-color: black;
+}
+
+.carousel-img {
+    opacity: 0.4;
+}
+
+footer {
+    background-color: rgb(44, 43, 43);
+    color: white;
+    padding: 40px 0 20px 0;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footerNav,
+.socialNav {
+    list-style: none;
+    display: flex;
+}
+
+.footerNav li,
+.socialNav li {
+    margin-left: 20px;
+
+}
+
+.footerNav li a,
+.socialNav li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3;
+    font-size: 20px;
+}
+
+.socialNav li a {
+    font-size: 25px;
+}
+
+.footerNav li a:hover,
+.socialNav li a:hover {
+    color: #004c9c;
+}
+
+.socialNav {
+    justify-content: flex-end;
+}
+
+#reviews {
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../images/reviews.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.customerReview p {
+    line-height: 150%;
+}
+
+
+@media (max-width: 800px) {
+
+
+    body {
+        width: 100vw;
+    }
+
+    .carousel {
+        margin-bottom: 20px;
+    }
+
+    .card {
+        margin: 0 auto;
+    }
+
+    .socialNav {
+        justify-content: center;
+        padding-top: 5px;
+    }
+}

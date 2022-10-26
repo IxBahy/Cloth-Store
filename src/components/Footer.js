@@ -26,7 +26,9 @@ function Footer() {
                             </ul>
                         </div>{/* left footer */}
                     </div>{/* row */}
-                    <p>Created By Mohamed Elbahy © 2022.</p>
+                    <div>
+                        <p >Created By Mohamed Elbahy © 2022.</p>
+                    </div>
                 </div>{/* container */}
 
             </footer>

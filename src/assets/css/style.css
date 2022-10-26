@@ -129,9 +129,11 @@ footer p {
         margin: 0 auto;
     }
 
+    .footerNav,
     .socialNav {
         justify-content: center;
         padding-top: 5px;
+        padding-right: 35px;
     }
 
     #reviews {

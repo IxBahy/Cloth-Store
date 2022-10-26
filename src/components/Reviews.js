@@ -4,7 +4,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 function Reviews() {
     return (
         <>
-            <section id="reviews" className='mb-5 text-white'>
+            <section id="reviews" className='mb-5 text-white pb-4'>
                 <div className="container">
                     <div className="row ">
                         <div className="col-md-4 col-sm-12 customerReview pt-5">

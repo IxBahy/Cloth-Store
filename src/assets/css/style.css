@@ -116,6 +116,11 @@ footer p {
         width: 100vw;
     }
 
+    .heading {
+        padding-top: 25vh;
+        width: 42%;
+    }
+
     .carousel {
         margin-bottom: 20px;
     }
